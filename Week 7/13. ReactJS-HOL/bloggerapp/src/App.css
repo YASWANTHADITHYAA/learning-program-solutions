@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  gap: 40px; /* spacing between sections */
+}
+
+.section {
+  padding: 0 20px;
+}
+
+/* Vertical line between sections */
+.section:not(:last-child) {
+  border-right: 3px solid green;
+}
